@@ -9,8 +9,7 @@ It also includes **Swagger UI** for interactive API documentation.
 
 - **Python 3.8+** installed on your machine  
   - [Download Python for Windows](https://www.python.org/downloads/windows/) 
-- **pip** (comes bundled with Python 3.4+)  
-- (Optional but recommended) **Virtual environment (`venv`)** for isolated dependencies  
+- **pip** (comes bundled with Python 3.4+)
 
 ---
 
@@ -18,7 +17,7 @@ It also includes **Swagger UI** for interactive API documentation.
 
 ### Step 1: Clone the repository (or create a project folder)
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/saivardhan-poloju/BasicFlaskAPI.git
 cd BasicFlaskAPP
 ```
 
