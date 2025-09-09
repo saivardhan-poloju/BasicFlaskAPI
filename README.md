@@ -17,18 +17,20 @@ It also includes **Swagger UI** for interactive API documentation.
 
 ### Step 1: Clone the repository (or create a project folder)
 ```bash
-git clone https://github.com/saivardhan-poloju/BasicFlaskAPI.git
-cd BasicFlaskAPI
+git clone https://github.com/saivardhan-poloju/BasicFlaskAPI.git     # Clone the project from GitHub 
+cd BasicFlaskAPI                                                     # Navigate into the project folder
 ```
 
-### Step 2: Setting up Environment and running the application
+### Step 2: Setting up the Environment and running the application
 ```bash
-python -m venv venv
-venv\Scripts\Activate
-pip install -r requirements.txt
-flask run
+python -m venv venv                # Create a new virtual environment named 'venv' in the current folder
+venv\Scripts\Activate              # Activate the virtual environment (Windows cmd). 
+                                   # For PowerShell use: .\venv\Scripts\Activate.ps1
+                                   # For Mac/Linux use: source venv/bin/activate
+pip install -r requirements.txt    # Install all required Python packages listed in requirements.txt
+flask run                          # Start the Flask development server
 ```
 
-### Step 3: Check swagger documentation
+### Step 3: Check Swagger documentation
 - **Visit swagger documentation** to understand supported endpoints
     - [Swagger](http://127.0.0.1:5000/apidocs/) 
