@@ -18,7 +18,7 @@ It also includes **Swagger UI** for interactive API documentation.
 ### Step 1: Clone the repository (or create a project folder)
 ```bash
 git clone https://github.com/saivardhan-poloju/BasicFlaskAPI.git
-cd BasicFlaskAPP
+cd BasicFlaskAPI
 ```
 
 ### Step 2: Setting up Environment and running the application
